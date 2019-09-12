@@ -20,11 +20,11 @@ case "`lsb_release -is`" in
 	 echo "Done."
 	 clear
 	 cd /var/www/html
-	 wget https://raw.githubusercontent.com/ch0sys/SwiftPanel/master/SwiftPanel.zip
+	 wget https://github.com/zer0xpl0ide/Swift-Panel/raw/master/SwiftPanel.zip
 	 unzip SwiftPanel.zip
-	 rm -rf Swiftpanel.zip
+	 rm -rf SwiftPanel.zip
 	 rm -rf configuration-dist.php
-	 wget https://raw.githubusercontent.com/ch0sys/SwiftPanel/master/configuration.php
+	 wget https://raw.githubusercontent.com/zer0xpl0ide/Swift-Panel/master/configuration.php
 	 echo "Done."
 	 clear
 	 yum remove mysql
@@ -35,7 +35,7 @@ case "`lsb_release -is`" in
 	 mysql_secure_installation
 	 echo "Go youdomain.com/install"
 	 echo "Write mysql -u root -p for install Database!"
-	 echo "ch0"
+	 echo "zer0xpl0ide"
 	 echo "Done. Bye!"
 	 rm -rf install.sh
 	     ;;
