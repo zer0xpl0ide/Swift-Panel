@@ -16,13 +16,13 @@
 	define('DBHOST', 'localhost');
 	
 	// DBNAME is the MySQL Database Name
-	define('DBNAME', 'name');
+	define('DBNAME', 'swiftpanel');
 	
 	// DBUSER is the MySQL Database Username
-	define('DBUSER', 'user');
+	define('DBUSER', 'swiftpanel');
 	
 	// DBPASSWORD is the MySQL Database Password
-	define('DBPASSWORD', 'password');
+	define('DBPASSWORD', 'gpanel1');
 
 //*************************************************************************************************
 
