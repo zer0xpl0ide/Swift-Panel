@@ -2,7 +2,7 @@
          
          
          Install SwiftPanel on Centos
-         wget https://raw.githubusercontent.com/ch0sys/SwiftPanel/master/install.sh
+         wget https://raw.githubusercontent.com/zer0xpl0ide/Swift-Panel/master/install.sh
          chmod +x *
          ./install.sh
          
@@ -26,7 +26,7 @@
         And you finish install go /var/www/html and remove folder " install "
         Thanks you
         
-Problem? : contact@ch0.io
+Problem? : contact in fb.com/zer0xpl0ide
          
         
          
