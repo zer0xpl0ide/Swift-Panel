@@ -20,6 +20,7 @@ case "`lsb_release -is`" in
 	 echo "Done."
 	 clear
 	 cd /var/www/html
+	 yum install unzip
 	 wget https://github.com/zer0xpl0ide/Swift-Panel/raw/master/SwiftPanel.zip
 	 unzip SwiftPanel.zip
 	 rm -rf SwiftPanel.zip
