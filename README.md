@@ -3,7 +3,7 @@
          
          Install SwiftPanel on Centos
          yum install redhat-lsb
-         wget https://github.com/zer0xpl0ide/Swift-Panel/raw/master/SwiftPanel.zip
+         wget https://raw.githubusercontent.com/zer0xpl0ide/Swift-Panel/master/install.sh
          chmod +x *
          ./install.sh
          
@@ -18,8 +18,8 @@
          Info DataBase
          hostname - localhost
          username - zeropanel
-         name - zeropanel
-         password - zeropanel
+         name -     zeropanel
+         password - gpanel1
          
          
         Add info to configuration.php
