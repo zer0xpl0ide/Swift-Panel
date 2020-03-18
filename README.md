@@ -2,23 +2,24 @@
          
          
          Install SwiftPanel on Centos
-         wget https://raw.githubusercontent.com/zer0xpl0ide/Swift-Panel/master/install.sh
+         yum install redhat-lsb
+         wget https://github.com/zer0xpl0ide/Swift-Panel/raw/master/SwiftPanel.zip
          chmod +x *
          ./install.sh
          
          Open DataBase
          mysql -u root -p  (Write you password)
-         CREATE DATABASE swiftpanel;
-         CREATE USER 'swiftpanel'@localhost IDENTIFIED BY 'gpanel1';
-         GRANT ALL PRIVILEGES ON swiftpanel.* TO 'swiftpanel'@localhost;
-         use swiftpanel;
+         CREATE DATABASE zeropanel;
+         CREATE USER 'zeropanel'@localhost IDENTIFIED BY 'gpanel1';
+         GRANT ALL PRIVILEGES ON zeropanel.* TO 'zeropanel'@localhost;
+         use zeropanel;
          exit
          
          Info DataBase
          hostname - localhost
-         username - swiftpanel
-         name - swiftpanel
-         password - gpanel1
+         username - zeropanel
+         name - zeropanel
+         password - zeropanel
          
          
         Add info to configuration.php
